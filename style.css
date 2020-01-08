@@ -8,13 +8,47 @@ body{
 }
 header{
     width: 100% ;
-   Background-color:black;
+    background-color: black;
     color:white;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
     position: fixed;
     z-index:10; 
+}
+#toptitle{
+    position: absolute;
+    width:50%;
+    height:30%;
+    top: 10%;
+    left:10%;
+    font-size: 100px;
+    opacity:1;
+    font-family:'Satisfy',cursive;
+    color:white;
+}
+#nexttitle{
+    position: absolute;
+    width:50%;
+    height:30%;
+    top: 35%;
+    left:10%;
+    font-size: 30px;
+    opacity:1;
+    font-family:'Satisfy',cursive;
+    color:white;
+}
+
+#secondtitle{
+    position: absolute;
+    width:50%;
+    height:30%;
+    top: 45%;
+    left:10%;
+    font-size: 30px;
+    opacity:1;
+    font-family:"M PLUS Rounded 1c";
+    color:white;
 }
 
 h1{
@@ -48,7 +82,7 @@ li{
     height: auto;
     min-height: 100%;
     z-index: -1;
-    opacity:0.56;
+    opacity:0.9;
 }
 h2{
     margin-top:64px;
@@ -76,6 +110,8 @@ h2{
 h4{margin-top: 64px;
     text-align: center;
     margin-bottom: 40px;
+    font-family: 'Amatic SC', cursive;
+    font-size:30px;
 }
 #intro{
     width:50%;
@@ -96,8 +132,8 @@ h4{margin-top: 64px;
     left: 0px;
     width:100%;
     height:150%;
-    background-color:black;
-    color:white;
+    background-color:white;
+    color:black;
     text-align: center;
     
 }
@@ -109,7 +145,7 @@ h4{margin-top: 64px;
     margin-bottom: 64px;
     text-align:center;
     font-size: 35px;
-    color:black;
+    color:white;
     text-decoration-line: underline;
     text-decoration-color: #89002A;
     text-decoration: none;
@@ -160,9 +196,63 @@ h6{
     font-size: 15px;
     padding-bottom: 10px;
 }
+
+h7{
+    margin:30px;
+}
+#disco{
+    width:100%;
+    text-align: center;
+}
+#main4{
+    position: absolute;
+    top:400%;
+    width:100%;
+    height:150%;
+    background:linear-gradient(#000000 60%, rgb(255, 0, 0));
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    
+}
+#disc{
+    width:20%;
+    height:20%;
+    margin:35px;
+    display: inline-bloc;
+}
+#tit{
+    font-family: Caveat;
+}
+
+#main5{
+    position: absolute;
+    top:550%;
+    width:100%;
+    height:50%;
+    background:black;
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding:20px;
+    
+}
+a{
+    color:white;
+    text-decoration: none;
+    font-family: 'Lateef',cursive;
+}
+a:hover{
+    color:pink
+}
+a:visited{
+    color:red;
+}
+
 #footer01{
     position: absolute;
-    top:450%;
+    top:550%;
+    left:0%;
     width:100%;
     height:50%;
     background:linear-gradient(#000000, rgb(255, 0, 0));
@@ -179,8 +269,4 @@ h6{
     width:50%;
     height:100%;
     display: inline;
-}
-
-h7{
-    margin:30px;
 }
